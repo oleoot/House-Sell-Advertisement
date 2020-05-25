@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Utility classes ========================================================================================================== */
+.container {
+    width: 85%;
+    margin: 0 auto;
+    max-width: 1600px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-container-center {
+    display: flex;
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.grid-container {
+    display: grid;
+}
+
+.text-xs {
+    font-size: 30px;
+}
+
+.text-sm {
+    font-size: 35px;
+}
+
+.text-md {
+    font-size: 40px;
+}
+
+.text-lg {
+    font-size: 50px;
+}
+
+.text-xl {
+    font-size: 60px;
+}
