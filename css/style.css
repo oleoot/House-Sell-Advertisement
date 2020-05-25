@@ -21,7 +21,8 @@ a {
 }
 
 p,
-h2 {
+h2,
+li {
     font-weight: 300 !important;
 }
 
@@ -85,6 +86,31 @@ h2 {
 #info p {
     text-align: center;
     color: var(--info-color);
+}
+
+/* Tech info section ================================================================================================================ */
+.tech-info-wrap {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 80px;
+}
+
+/* .tech-info-wrap ul {
+    list-style-image: url(../img/icons/dot.png);
+} */
+
+.tech-info-wrap ul li:first-of-type {
+    margin-bottom: 50px;
+    color: var(--primary-color);
+}
+
+.tech-info-wrap li:not(:first-of-type) {
+    color: var(--info-color);
+    background: url(../img/icons/dot.png) no-repeat left center;
+    padding-left: 40px;
+}
+
+.tech-info-wrap li span {
+    color: var(--primary-color);
 }
 
 /* Utility classes ========================================================================================================== */
