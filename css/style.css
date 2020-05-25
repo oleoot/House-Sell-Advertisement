@@ -81,7 +81,17 @@ h2 {
     width: fit-content;
 }
 
+/* Info section ================================================================================================================ */
+#info p {
+    text-align: center;
+    color: var(--info-color);
+}
+
 /* Utility classes ========================================================================================================== */
+section {
+    padding: 150px 0;
+}
+
 .container {
     width: 85%;
     margin: 0 auto;
@@ -135,4 +145,15 @@ h2 {
     display: inline-block;
     margin-top: 50px;
     min-width: 100%;
+}
+
+.section-headline {
+    text-align: center;
+}
+
+.underline {
+    width: 200px;
+    height: 5px;
+    background: var(--accent-color);
+    margin: 20px auto 50px;
 }
