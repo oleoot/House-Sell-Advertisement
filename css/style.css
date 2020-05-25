@@ -5,6 +5,82 @@
     font-family: 'Oswald', sans-serif;
 }
 
+:root {
+    --primary-color: #000;
+    --secondary-color: #fff;
+    --accent-color: #FF9E44;
+    --info-color: #555555;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p,
+h2 {
+    font-weight: 300 !important;
+}
+
+/* Header section ================================================================================================================ */
+#header {
+    width: 100%;
+    min-height: 100vh;
+    background: url(../img/bg/bg-1.png) center/cover;
+    padding-top: 40px;
+}
+
+.nav {
+    width: fit-content;
+    background: var(--secondary-color);
+    margin: 0 0 0 auto;
+    padding: 20px 50px;
+}
+
+.nav li {
+    margin: 0 25px;
+}
+
+.nav a {
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+
+.header-main-wrap {
+    width: fit-content;
+}
+
+.header-main {
+    width: fit-content;
+    background: var(--secondary-color);
+    padding: 40px;
+    margin-top: 100px;
+}
+
+.header-main p {
+    color: #949494;
+}
+
+.header-info-wrap {
+    margin-top: 50px;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.info-wrap-m {
+    padding-left: 30px;
+}
+
+.header-call {
+    padding: 26px;
+    background: var(--secondary-color);
+    margin: -104px 0 0 auto;
+    width: fit-content;
+}
+
 /* Utility classes ========================================================================================================== */
 .container {
     width: 85%;
@@ -30,7 +106,7 @@
 }
 
 .text-xs {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .text-sm {
@@ -38,7 +114,7 @@
 }
 
 .text-md {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .text-lg {
@@ -47,4 +123,16 @@
 
 .text-xl {
     font-size: 60px;
+}
+
+.btn {
+    background: var(--accent-color);
+    padding: 30px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+    display: inline-block;
+    margin-top: 50px;
+    min-width: 100%;
 }
