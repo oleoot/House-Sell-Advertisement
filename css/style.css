@@ -113,6 +113,29 @@ li {
     color: var(--primary-color);
 }
 
+/* Gallery section ================================================================================================================ */
+.gallery-wrap {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.gallery-wrap>div {
+    position: relative;
+}
+
+.gallery-wrap img {
+    display: block;
+    width: 100%;
+}
+
+.room-info {
+    padding: 15px 50px;
+    background: var(--secondary-color);
+    position: absolute;
+    left: -1px;
+    bottom: 0;
+}
+
 /* Utility classes ========================================================================================================== */
 section {
     padding: 150px 0;
@@ -181,5 +204,5 @@ section {
     width: 200px;
     height: 5px;
     background: var(--accent-color);
-    margin: 20px auto 50px;
+    margin: 20px auto 80px;
 }
