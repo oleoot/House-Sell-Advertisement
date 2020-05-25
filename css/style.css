@@ -202,6 +202,31 @@ textarea::placeholder {
     display: block;
 }
 
+/* Footer section ================================================================================================================ */
+#footer {
+    padding: 20px 0;
+    background: var(--primary-color);
+}
+
+.footer-wrap {
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.footer-wrap p {
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+.social-wrap {
+    justify-content: flex-end;
+}
+
+.social-wrap img {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+}
+
 /* Utility classes ========================================================================================================== */
 section {
     padding: 150px 0 50px;
